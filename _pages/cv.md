@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Lakshya Soni"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,10 +8,8 @@ redirect_from:
 ---
 {% include base_path %}
 
-# Lakshya Soni
-
 **LinkedIn:** [Lakshya Soni](https://www.linkedin.com/in/soni-lakshya/) | **Email:** lakshyasoni97@gmail.com
-**Website:** [lakshyasoni.github.io](https://lakshyasoni97.github.io/lakshyasoni/) | **Contact:** +91-7065511554
+**Website:** [lakshyasoni.github.io](https://lakshyasoni97.github.io/ai/) | **Contact:** +91-7065511554
 
 ## Work Experience
 
