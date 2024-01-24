@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to my Portfolio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# Welcome to Lakshya Soni's Portfolio
-
 Hello there! I'm Lakshya Soni, a passionate and results-driven Data Scientist with a background in Artificial Intelligence and Data Science. Welcome to my digital space, where I showcase my professional journey, projects, and skills.
 
 ## About Me

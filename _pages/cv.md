@@ -10,13 +10,8 @@ redirect_from:
 
 # Lakshya Soni
 
-**LinkedIn:** [Lakshya Soni](https://www.linkedin.com/in/soni-lakshya/)
-
-**Email:** lakshyasoni97@gmail.com
-
-**Website:** [lakshyasoni.github.io](https://lakshyasoni97.github.io/lakshyasoni/)
-
-**Contact:** +91-7065511554
+**LinkedIn:** [Lakshya Soni](https://www.linkedin.com/in/soni-lakshya/) | **Email:** lakshyasoni97@gmail.com
+**Website:** [lakshyasoni.github.io](https://lakshyasoni97.github.io/lakshyasoni/) | **Contact:** +91-7065511554
 
 ## Work Experience
 
