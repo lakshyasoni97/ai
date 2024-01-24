@@ -11,15 +11,18 @@ redirect_from:
 # Lakshya Soni
 
 **LinkedIn:** [Lakshya Soni](https://www.linkedin.com/in/soni-lakshya/)
+
 **Email:** lakshyasoni97@gmail.com
+
 **Website:** [lakshyasoni.github.io](https://lakshyasoni97.github.io/lakshyasoni/)
+
 **Contact:** +91-7065511554
 
 ## Work Experience
 
 ### Data Scientist
 
-**Network18 | June 2023 - Present**
+#### Network18 | June 2023 - Present
 
 - Conducted root cause analysis on Google Analytics data, uncovering factors leading to viewership decline.
 - Developed a Headline Generator cum News Article Summarizer using state-of-the-art language models, aiding content writers in creating more engaging headlines.
@@ -28,7 +31,7 @@ redirect_from:
 
 ### Executive Engineer
 
-**Torrent Gas Jaipur Private Limited | July 19 - July 22**
+#### Torrent Gas Jaipur Private Limited | July 19 - July 22
 
 - Spearheaded data collection for a comprehensive Steel pipeline network in Jaipur, reducing project cost by 12 lacs and execution time by 14 days.
 - Formulated an 8-year expansion plan for the Steel pipeline network, aligning with industry guidelines.
@@ -36,9 +39,9 @@ redirect_from:
 
 ## Education
 
-- **PGP in Artificial Intelligence & Data Science | Jio Institute | Graduated: 2023 | CGPA: 8.79**
-- **B.Tech in Power Engineering | National Power Training Institute | Graduated: 2019 | CGPA: 8.38**
-- **12th Grade | Model Higher Secondary School | Graduated: 2015 | Percentage: 79.2%**
+- PGP in Artificial Intelligence & Data Science | Jio Institute | Graduated: 2023 | CGPA: 8.79
+- B.Tech in Power Engineering | National Power Training Institute | Graduated: 2019 | CGPA: 8.38
+- 12th Grade | Model Higher Secondary School | Graduated: 2015 | Percentage: 79.2%
 
 ## Projects
 
