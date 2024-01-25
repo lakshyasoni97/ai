@@ -1,8 +1,8 @@
 # main links links
 main:
   - title: "CV"
-    # url: /cv/
-    url: /files/Resume.pdf
+    url: /cv/
+    # url: /files/Resume.pdf
 
   - title: "Portfolio"
     url: /portfolio/
@@ -12,7 +12,7 @@ main:
     # url: https://scholar.google.es/citations?user=xxxxxxxx=en
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /posts/
 
   # - title: "Talks"
   #   url: /talks/    
