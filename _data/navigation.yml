@@ -7,12 +7,12 @@ main:
   - title: "Portfolio"
     url: /portfolio/
   
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
     # url: https://scholar.google.es/citations?user=xxxxxxxx=en
         
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Blog Posts"
+    url: /year-archive/
 
   # - title: "Talks"
   #   url: /talks/    
