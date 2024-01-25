@@ -1,49 +1,38 @@
 ---
 permalink: /
-title: "👋🏼 Hello there, I'm Boris!"
+title: "Welcome to my Portfolio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Hello there! I'm Lakshya Soni, a passionate and results-driven Data Scientist with a background in Artificial Intelligence and Data Science. Welcome to my digital space, where I showcase my professional journey, projects, and skills.
 
+## About Me
 
+I thrive on turning complex data into actionable insights. With a strong foundation in Power Engineering and specialized training in AI and Data Science, I bring a unique blend of technical expertise and creative problem-solving to the table.
 
-![Illustration of combining vision and language modalities](/images/image_to_text_vis.png){: .align-right width="300px"}
-👨🏻‍💻 I'm a final year graduate student at the TU Berlin.
+## Work Experience
 
-🔬 My research interests are in bridging vision and language modalities and Self-Supervised Learning!
+Explore my professional journey, where I've contributed to the field as a Data Scientist at the largest multimedia company of India, delving into Google Analytics, creating innovative tools for content writers, and automating report generation for informed decision-making. My experience in the energy industry involved spearheading projects, reducing costs, and collaborating with regulatory bodies.
 
-📚 I'm currently working towards my Master's Thesis in the field of Vision-Language-Modelling.
+## Education
 
-📽️ I am also interested in assisting others on their path in the world of Machine Learning and academia.
+Discover my educational background, including a Post Graduate Program in Artificial Intelligence & Data Science from Jio Institute and a Bachelor's degree in Power Engineering from the National Power Training Institute.
 
-# Selected Experience
+## [Projects](https://github.com/lakshyasoni97)
 
-## 🤖 Open Source Contributions
-I have experience contributing to [Arena Bench](https://github.com/Arena-Rosnav) a large open-source project for robotic obstacle avoidance using Deep Reinforcement Learning.
+Dive into the details of my impactful projects, ranging from personalized curriculum development to early sepsis prediction and customer rating analysis. These projects reflect my dedication to leveraging technology for real-world solutions.
 
-Moreover, I have published a [respective paper](https://sudo-boris.github.io/publication/2022-Arena-Bench) at the IROS conference and in the Robotics and Automation Letters (RA-L) journal.
+## Skills
 
-## 📜 Reimplementing and Reproducing Papers
-I have experience with independent research. I have implemented the Reward Constrained Policy Optimization paper into stable-baselines3 PPO and reproduced the original results by running and tracking experiments.
+Learn about my diverse skill set, which includes proficiency in SQL, major Python libraries, MS Excel, and Google Earth. I've also contributed to workshops and events, showcasing my commitment to knowledge sharing and community engagement.
 
-To accompany this work, I have submitted a blog post to the **ICLR** Blogposts Track communicating the paper's theory and my results.
+## Connect With Me
 
-Feel free to look at my specific [portfolio entry](https://sudo-boris.github.io/portfolio/RCPPO/).
+Explore my LinkedIn profile, send me an email, or connect through other channels. I'm always open to collaboration, discussion, and exploring new opportunities.
 
-## 👨🏻‍🔬 Professional Experience
-Currently I am working as a **Student Researcher** at the Reliable Multimodal AI Lab at the TU Darmstadt under the supervision of Prof. Marcus Rohrbach working on **Generative Video-Language Modelling**.
-Additionally, I have professional experience working as an **Applied Machine Learning Student Researcher** at the Fraunhofer Heinrich Hertz Institute. \
-There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
+Thank you for visiting, and I look forward to connecting with you!
 
-## 📚 Teaching and Community Contributions
-To further contribute to the Machine Learning community, I have a [YouTube](https://www.youtube.com/@borismeinardus) and [Medium](https://medium.com/@boris.meinardus) channel where I publish educational Machine Learning content.
-
-
-
-
-
-
-
+[LinkedIn](https://www.linkedin.com/in/soni-lakshya/) | [Email](mailto:lakshyasoni97@gmail.com) | [Portfolio](https://lakshyasoni97.github.io/lakshyasoni/)
