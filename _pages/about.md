@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I'm Lakshya Soni, a passionate and results-driven Data Scientist with a background in Artificial Intelligence and Data Science. Welcome to my digital space, where I showcase my professional journey, projects, and skills. You can find my resume [here](/files/lakshya_resume.pdf).
+Hello there! I'm Lakshya Soni, a passionate and results-driven Data Scientist with a background in Artificial Intelligence and Data Science. Welcome to my digital space, where I showcase my professional journey, projects, and skills. You can find my resume [here](/ai/files/lakshya_resume.pdf).
 
 ## About Me
 
