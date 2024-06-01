@@ -1,6 +1,8 @@
 ---
 title: "Naive Bayes Classifier"
-excerpt: "Applying Naive Bayes classifier from scratch.<br/><img src='/ai/images/bayes.jpeg'>"
+excerpt: "Implementation of Naive Bayes classifier from scratch. This project used a simple naive bayes classifier to classify different comments as five star or a one star rating."
 collection: portfolio
+permalink: /naive-bayes-classifier
+layout: redirect
+redirect_to: 'https://github.com/lakshyasoni97/Naive-Bayes-Classifier'
 ---
-This project used a simple naive bayes classifier to classify different comments as five star or a one star rating. This project was a part of assignment in the subject Intro to AI.![bayes.jpeg](/ai/images/bayes.jpeg)
