@@ -8,32 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I'm Lakshya Soni, a passionate and results-driven Data Scientist with a background in Artificial Intelligence and Data Science. Welcome to my digital space, where I showcase my professional journey, projects, and skills. You can find my resume [here](/ai/files/lakshya_resume.pdf).
+Hi, I'm Lakshya Soni. I specialize in turning complex data into actionable insights, with a rich background in power engineering and deep expertise in AI and data science. I currently drive multimedia strategies at Network18, India's largest media firm.
 
-## About Me
+From automating processes to developing cutting-edge tools for multimedia, i love exploring them all. I have a PG degree in AI & Data Science from Jio Institute and a Bachelor’s in Power Engineering.
 
-I thrive on turning complex data into actionable insights. With a strong foundation in Power Engineering and specialized training in AI and Data Science, I bring a unique blend of technical expertise and creative problem-solving to the table.
+Outside of work, I'm an avid fan of anime and K-dramas, with "Naruto" being a particular favorite. Naruto's relentless determination and belief in himself inspire me to persist and strive towards my goals, both professionally and personally.
 
-## Work Experience
+Let's connect on [LinkedIn](https://www.linkedin.com/in/soni-lakshya/). or via [email](mailto:lakshyasoni97@gmail.com) to discuss AI, innovations, or the latest in anime and K-dramas!
 
-Explore my professional journey, where I've contributed to the field as a Data Scientist at the largest multimedia company of India, delving into Google Analytics, creating innovative tools for content writers, and automating report generation for informed decision-making. My experience in the energy industry involved spearheading projects, reducing costs, and collaborating with regulatory bodies.
-
-## Education
-
-Discover my educational background, including a Post Graduate Program in Artificial Intelligence & Data Science from Jio Institute and a Bachelor's degree in Power Engineering from the National Power Training Institute.
-
-## [Projects](https://github.com/lakshyasoni97)
-
-Dive into the details of my impactful projects, ranging from personalized curriculum development to early sepsis prediction and customer rating analysis. These projects reflect my dedication to leveraging technology for real-world solutions.
-
-## Skills
-
-Learn about my diverse skill set, which includes proficiency in SQL, major Python libraries, MS Excel, and Google Earth. I've also contributed to workshops and events, showcasing my commitment to knowledge sharing and community engagement.
-
-## Connect With Me
-
-Explore my LinkedIn profile, send me an email, or connect through other channels. I'm always open to collaboration, discussion, and exploring new opportunities.
-
-Thank you for visiting, and I look forward to connecting with you!
-
-[LinkedIn](https://www.linkedin.com/in/soni-lakshya/) | [Email](mailto:lakshyasoni97@gmail.com) | [Github](https://lakshyasoni97.github.io/lakshyasoni/)
+Thank you for visiting. I'm excited to explore potential collaborations and new opportunities with you!
