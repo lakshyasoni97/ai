@@ -14,6 +14,6 @@ From automating processes to developing cutting-edge tools for multimedia, i lov
 
 Outside of work, I'm an avid fan of anime and K-dramas, with "Naruto" being a particular favorite. Naruto's relentless determination and belief in himself inspire me to persist and strive towards my goals, both professionally and personally.
 
-Let's connect on [LinkedIn](https://www.linkedin.com/in/soni-lakshya/). or via [email](mailto:lakshyasoni97@gmail.com) to discuss AI, innovations, or the latest in anime and K-dramas!
+Let's connect on [linkedIn](https://www.linkedin.com/in/soni-lakshya/) or via [email](mailto:lakshyasoni97@gmail.com) to discuss AI, innovations, or the latest in anime and K-dramas!
 
 Thank you for visiting. I'm excited to explore potential collaborations and new opportunities with you!
