@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Lakshya Soni. I specialize in turning complex data into actionable insights, with a rich background in power engineering and deep expertise in AI and data science. I currently drive multimedia strategies at Network18, India's largest media firm.
+Hi, I'm Lakshya Soni. I specialize in turning complex data into actionable insights, with a background in AI and data science and power engineering. I currently help in driving multimedia strategies at Network18, India's largest media firm.
 
 From automating processes to developing cutting-edge tools for multimedia, i love exploring them all. I have a PG degree in AI & Data Science from Jio Institute and a Bachelor’s in Power Engineering.
 
