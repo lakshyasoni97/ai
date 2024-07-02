@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Lakshya Soni"
+title: ""
 permalink: /blog/
 author_profile: true
 redirect_from:
