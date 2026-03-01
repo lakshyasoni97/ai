@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshya Soni — Data Scientist | ML & Gen AI</title>
+    <meta name="description"
+        content="Results-driven Data Scientist with expertise in machine learning, automation, and applied Generative AI. Building LLM-based tools and automation pipelines that deliver real impact.">
+    <meta name="keywords" content="Data Scientist, Machine Learning, Generative AI, LLM, NLP, Python, Portfolio">
+    <meta name="author" content="Lakshya Soni">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Lakshya Soni — Data Scientist">
+    <meta property="og:description"
+        content="Results-driven Data Scientist with expertise in ML, automation, and applied Generative AI.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- NAVIGATION -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>LS<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#capabilities" class="nav-link">What I Build</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- HERO SECTION -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting reveal-up">Hello, I'm</p>
+            <h1 class="hero-name reveal-up">Lakshya Soni</h1>
+            <div class="hero-title-wrapper reveal-up">
+                <span class="hero-title">Data Scientist</span>
+                <span class="hero-cursor">|</span>
+            </div>
+            <p class="hero-tagline reveal-up">Building intelligent systems with <span class="gradient-text">Machine
+                    Learning</span>, <span class="gradient-text">Generative AI</span> & <span
+                    class="gradient-text">Automation</span></p>
+            <div class="hero-ctas reveal-up">
+                <a href="#capabilities" class="btn btn-primary">View My Work</a>
+                <a href="https://drive.google.com/drive/folders/1dsyQT0F1Ct0LNcPUhfjAEhGG8uAbbN_b?usp=sharing"
+                    target="_blank" rel="noopener" class="btn btn-outline">View
+                    Resume</a>
+            </div>
+            <div class="hero-socials reveal-up">
+                <a href="https://www.linkedin.com/in/soni-lakshya/" target="_blank" rel="noopener" class="social-link"
+                    aria-label="LinkedIn">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+                <a href="https://github.com/lakshyasoni97" target="_blank" rel="noopener" class="social-link"
+                    aria-label="GitHub">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                    </svg>
+                </a>
+                <a href="https://x.com/lakshyasoni97" target="_blank" rel="noopener" class="social-link"
+                    aria-label="Twitter">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16h-4.267z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                </a>
+                <a href="mailto:lakshyasoni97@gmail.com" class="social-link" aria-label="Email">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2" />
+                        <path d="M22 7l-10 6L2 7" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll down</span>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- ABOUT SECTION -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal-up">About <span class="gradient-text">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text reveal-up">
+                    <p>I'm a <strong>Data Scientist</strong> passionate about turning complex data challenges into
+                        elegant, impactful solutions. With a strong foundation in <strong>Machine Learning</strong>,
+                        <strong>NLP</strong>, and <strong>Generative AI</strong>, I specialize in building intelligent
+                        systems that automate workflows, extract insights, and drive real business value.
+                    </p>
+                    <p>From orchestrating multi-agent AI systems at <strong>Deloitte</strong> to building automation
+                        pipelines that saved <strong>3000+ man-hours/year</strong> at <strong>Network18</strong>, I
+                        bring a results-first approach to every problem I tackle. I believe the best data science isn't
+                        just technically sound — it's deployed, adopted, and making an impact.</p>
+                    <p>When I'm not building AI tools, you'll find me writing about data science, exploring new LLM
+                        capabilities, or thinking about how to make complex systems more accessible.</p>
+                </div>
+                <div class="about-stats reveal-up">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Agent & RAG Systems Built</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Industries Served<br><span
+                                style="font-size: 0.85em; opacity: 0.8;">(Consulting, Media, Energy)</span></span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="15">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Data Products Built</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="3000">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Man-Hours Saved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- SKILLS SECTION -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal-up">Skills & <span class="gradient-text">Expertise</span></h2>
+            <p class="section-subtitle reveal-up">Technologies and tools I use to build intelligent solutions</p>
+            <div class="skills-grid">
+                <!-- Languages & Core Tools -->
+                <div class="skill-category reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                        </div>
+                        <h3>Languages & Core Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+
+                <!-- Data Science & AI -->
+                <div class="skill-category reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 0-4 4c0 4 4 6 4 6s4-2 4-6a4 4 0 0 0-4-4z" />
+                                <path d="M12 12v10" />
+                                <path d="M8 16l-4 4" />
+                                <path d="M16 16l4 4" />
+                                <path d="M4 12c2 0 4 1 4 4" />
+                                <path d="M20 12c-2 0-4 1-4 4" />
+                            </svg>
+                        </div>
+                        <h3>Data Science & AI</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LLMs (Gemini)</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">NLP / NER</span>
+                        <span class="skill-tag">Topic Modeling</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                    </div>
+                </div>
+
+                <!-- Cloud & Infrastructure -->
+                <div class="skill-category reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                            </svg>
+                        </div>
+                        <h3>Cloud & Infrastructure</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Vertex AI</span>
+                        <span class="skill-tag">BigQuery</span>
+                        <span class="skill-tag">Cloud Run</span>
+                        <span class="skill-tag">PubSub</span>
+                        <span class="skill-tag">ChromaDB</span>
+                    </div>
+                </div>
+
+                <!-- Automation & Scraping -->
+                <div class="skill-category reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2v4" />
+                                <path d="M12 18v4" />
+                                <path d="M4.93 4.93l2.83 2.83" />
+                                <path d="M16.24 16.24l2.83 2.83" />
+                                <path d="M2 12h4" />
+                                <path d="M18 12h4" />
+                                <path d="M4.93 19.07l2.83-2.83" />
+                                <path d="M16.24 7.76l2.83-2.83" />
+                            </svg>
+                        </div>
+                        <h3>Automation & Scraping</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Selenium</span>
+                        <span class="skill-tag">BeautifulSoup</span>
+                        <span class="skill-tag">pywinauto</span>
+                        <span class="skill-tag">Web Scraping</span>
+                        <span class="skill-tag">Data Pipelines</span>
+                        <span class="skill-tag">Google ADK</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- CAPABILITIES SECTION (What I Build) -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="section capabilities" id="capabilities">
+        <div class="container">
+            <h2 class="section-title reveal-up">What I <span class="gradient-text">Build</span></h2>
+            <p class="section-subtitle reveal-up">Types of intelligent systems and solutions I architect & deliver</p>
+            <div class="capabilities-grid">
+
+                <div class="capability-card reveal-up">
+                    <div class="capability-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3" />
+                            <circle cx="4" cy="6" r="2" />
+                            <circle cx="20" cy="6" r="2" />
+                            <circle cx="4" cy="18" r="2" />
+                            <circle cx="20" cy="18" r="2" />
+                            <line x1="6" y1="6" x2="9.5" y2="10" />
+                            <line x1="18" y1="6" x2="14.5" y2="10" />
+                            <line x1="6" y1="18" x2="9.5" y2="14" />
+                            <line x1="18" y1="18" x2="14.5" y2="14" />
+                        </svg>
+                    </div>
+                    <h3>Multi-Agent AI Systems</h3>
+                    <p>Orchestrating autonomous LLM agents that analyze intent, delegate tasks, and compose responses in
+                        real-time — reducing response times from days to seconds.</p>
+                    <div class="capability-tech">
+                        <span>Gemini</span><span>Google ADK</span><span>Vertex
+                            AI</span><span>PubSub</span><span>RAG</span>
+                    </div>
+                    <div class="capability-impact">
+                        <span class="impact-badge">24-48hr → Instant</span>
+                    </div>
+                </div>
+
+                <div class="capability-card reveal-up">
+                    <div class="capability-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                            <path d="M7 8h2m2 0h2m2 0h2" />
+                            <path d="M7 11h10" />
+                        </svg>
+                    </div>
+                    <h3>Intelligent Automation Pipelines</h3>
+                    <p>End-to-end data pipelines that scrape, process, analyze, and report — eliminating manual
+                        intervention across departments with zero downtime.</p>
+                    <div class="capability-tech">
+                        <span>Selenium</span><span>BeautifulSoup</span><span>BigQuery</span><span>Power
+                            BI</span><span>Vertex AI</span>
+                    </div>
+                    <div class="capability-impact">
+                        <span class="impact-badge">3000+ Man-Hours Saved/Year</span>
+                    </div>
+                </div>
+
+                <div class="capability-card reveal-up">
+                    <div class="capability-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="23 7 16 12 23 17 23 7" />
+                            <rect x="1" y="5" width="15" height="14" rx="2" />
+                            <path d="M5 19v2" />
+                            <path d="M11 19v2" />
+                        </svg>
+                    </div>
+                    <h3>AI-Powered Content Repurposing</h3>
+                    <p>Leveraging LLMs to analyze transcripts, identify high-engagement segments, and auto-generate
+                        clips — turning hours of manual editing into minutes.</p>
+                    <div class="capability-tech">
+                        <span>Gemini API</span><span>Prompt
+                            Engineering</span><span>FastAPI</span><span>Docker</span><span>moviepy</span>
+                    </div>
+                    <div class="capability-impact">
+                        <span class="impact-badge">~85% Less Manual Editing</span>
+                    </div>
+                </div>
+
+                <div class="capability-card reveal-up">
+                    <div class="capability-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                        </svg>
+                    </div>
+                    <h3>RAG-Powered Chatbots</h3>
+                    <p>Building conversational AI that chats with your documents, PDFs, and presentations — providing
+                        instant answers grounded in your proprietary data.</p>
+                    <div class="capability-tech">
+                        <span>ChromaDB</span><span>LangChain</span><span>LangGraph</span><span>Streamlit</span><span>RAG</span>
+                    </div>
+                    <div class="capability-impact">
+                        <span class="impact-badge">Instant Knowledge Access</span>
+                    </div>
+                </div>
+
+                <div class="capability-card reveal-up">
+                    <div class="capability-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                        </svg>
+                    </div>
+                    <h3>NLP & Trend Detection Engines</h3>
+                    <p>Real-time pipelines that scrape, extract entities, cluster topics, and surface market trends from
+                        hundreds of daily articles using transformer models.</p>
+                    <div class="capability-tech">
+                        <span>Transformers</span><span>NER</span><span>TF-IDF</span><span>K-Means</span><span>LDA</span>
+                    </div>
+                    <div class="capability-impact">
+                        <span class="impact-badge">600+ Articles/Day Analyzed</span>
+                    </div>
+                </div>
+
+                <div class="capability-card reveal-up">
+                    <div class="capability-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+                    <h3>Computer Vision Solutions</h3>
+                    <p>Image classification models for industrial quality control — automatically detecting defects and
+                        anomalies with high accuracy, replacing tedious manual inspection.</p>
+                    <div class="capability-tech">
+                        <span>CNNs</span><span>Image Classification</span><span>Python</span><span>TensorFlow</span>
+                    </div>
+                    <div class="capability-impact">
+                        <span class="impact-badge">~91% Accuracy</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- EXPERIENCE SECTION -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title reveal-up">Career <span class="gradient-text">Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Scientist</h3>
+                            <span class="timeline-company">Deloitte USI</span>
+                        </div>
+                        <span class="timeline-date">Aug 2025 — Present</span>
+                        <p>Building multi-agent AI orchestration systems on Vertex AI using Google ADK and Gemini.
+                            Developing intelligent chatbots powered by RAG for enterprise knowledge discovery.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Scientist</h3>
+                            <span class="timeline-company">Network18</span>
+                        </div>
+                        <span class="timeline-date">Jun 2023 — Jul 2025</span>
+                        <p>Built market intelligence tools, NLP-powered trend detection engines, AI video repurposing
+                            solutions, and automation pipelines that saved 3000+ man-hours annually. Delivered
+                            end-to-end data products using LLMs, scraping, and cloud infrastructure.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>PGP in AI & Data Science</h3>
+                            <span class="timeline-company">Jio Institute</span>
+                        </div>
+                        <span class="timeline-date">Graduated 2023 · CGPA: 8.79</span>
+                        <p>Specialized in Artificial Intelligence and Data Science, building a strong foundation in ML
+                            algorithms, deep learning, and applied AI.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Executive Engineer</h3>
+                            <span class="timeline-company">Torrent Gas</span>
+                        </div>
+                        <span class="timeline-date">Jul 2019 — Jul 2022</span>
+                        <p>Developed computer vision models for industrial quality control (~91% accuracy), automated
+                            field reporting workflows with Google Data Studio, and led infrastructure projects spanning
+                            surveys to construction.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>B.Tech in Power Engineering</h3>
+                            <span class="timeline-company">NPTI</span>
+                        </div>
+                        <span class="timeline-date">Graduated 2019 · CGPA: 8.38</span>
+                        <p>Built the engineering fundamentals that fuel my systematic approach to solving data science
+                            problems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- BLOG SECTION -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="section blog" id="blog">
+        <div class="container">
+            <h2 class="section-title reveal-up">Latest <span class="gradient-text">Articles</span></h2>
+            <p class="section-subtitle reveal-up">Thoughts on Data Science, AI, and building intelligent systems</p>
+
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts will be loaded dynamically from Medium RSS -->
+                <div class="blog-loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading articles from Medium...</p>
+                </div>
+            </div>
+
+            <!-- Fallback: shown if RSS fails -->
+            <div class="blog-fallback" id="blogFallback" style="display: none;">
+                <div class="blog-empty">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                    </svg>
+                    <h3>Articles Coming Soon</h3>
+                    <p>I'm working on some exciting content about Data Science & Gen AI. Stay tuned!</p>
+                    <a href="https://medium.com/@lakshyasoni97" target="_blank" rel="noopener"
+                        class="btn btn-outline">Follow on Medium</a>
+                </div>
+            </div>
+
+            <div class="blog-cta reveal-up" id="blogCta" style="display: none;">
+                <a href="https://medium.com/@lakshyasoni97" target="_blank" rel="noopener" class="btn btn-outline">Read
+                    All Articles on Medium →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal-up">Let's <span class="gradient-text">Connect</span></h2>
+            <p class="section-subtitle reveal-up">Got an interesting problem to solve? Let's talk.</p>
+            <div class="contact-cards-row reveal-up">
+                <a href="mailto:lakshyasoni97@gmail.com" class="contact-card-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2" />
+                        <path d="M22 7l-10 6L2 7" />
+                    </svg>
+                    <h4>Email</h4>
+                    <span>lakshyasoni97@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/soni-lakshya/" target="_blank" rel="noopener"
+                    class="contact-card-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                    <h4>LinkedIn</h4>
+                    <span>linkedin.com/in/soni-lakshya</span>
+                </a>
+                <a href="https://github.com/lakshyasoni97" target="_blank" rel="noopener" class="contact-card-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                    </svg>
+                    <h4>GitHub</h4>
+                    <span>github.com/lakshyasoni97</span>
+                </a>
+                <a href="https://x.com/lakshyasoni97" target="_blank" rel="noopener" class="contact-card-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16h-4.267z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                    <h4>Twitter / X</h4>
+                    <span>@lakshyasoni97</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- FLOATING CHATBOT WIDGET (commented out for now) -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!--
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-fab" id="chatFab" aria-label="Chat with my Resume">
+            <svg class="chat-fab-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+            <svg class="chat-fab-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+        </button>
+        <div class="chat-popup" id="chatPopup">
+            <div class="chat-popup-header">
+                <div class="chat-popup-header-info">
+                    <div class="chat-popup-avatar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a4 4 0 0 0-4 4c0 4 4 6 4 6s4-2 4-6a4 4 0 0 0-4-4z" />
+                            <path d="M12 12v10" />
+                            <path d="M8 16l-4 4" />
+                            <path d="M16 16l4 4" />
+                            <path d="M4 12c2 0 4 1 4 4" />
+                            <path d="M20 12c-2 0-4 1-4 4" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Chat with my Resume</h4>
+                        <span>Powered by Gemini</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-box" id="chatBox">
+                <div class="chat-message bot-message">
+                    <div class="message-avatar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a4 4 0 0 0-4 4c0 4 4 6 4 6s4-2 4-6a4 4 0 0 0-4-4z" />
+                            <path d="M12 12v10" />
+                            <path d="M8 16l-4 4" />
+                            <path d="M16 16l4 4" />
+                            <path d="M4 12c2 0 4 1 4 4" />
+                            <path d="M20 12c-2 0-4 1-4 4" />
+                        </svg>
+                    </div>
+                    <div class="message-content">
+                        Hi! I'm Lakshya's AI assistant. Ask me anything about his experience, skills, or projects!
+                    </div>
+                </div>
+            </div>
+            <form class="chat-input-wrapper" id="chatForm">
+                <input type="text" id="chatInput" placeholder="Ask about my experience..." autocomplete="off" required>
+                <button type="submit" class="chat-send-btn" id="chatSubmit" aria-label="Send Message">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13" />
+                        <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+    -->
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- FOOTER -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Lakshya Soni. Built with passion & clean code.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/soni-lakshya/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/lakshyasoni97" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://x.com/lakshyasoni97" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://medium.com/@lakshyasoni97" target="_blank" rel="noopener">Medium</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
