@@ -4,6 +4,10 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Set dynamic current year
+    const yearSpan = document.getElementById('currentYear');
+    if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
     // ─── FLOATING CHATBOT TOGGLE (commented out for now) ─────
     /*
     const chatWidget = document.getElementById('chatWidget');
@@ -111,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Ease-out cubic
             const eased = 1 - Math.pow(1 - progress, 3);
             const current = Math.round(eased * target);
-            el.textContent = current.toLocaleString();
+            el.textContent = current < 10 ? '0' + current : current.toLocaleString();
             if (progress < 1) {
                 requestAnimationFrame(update);
             }
