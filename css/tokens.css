@@ -1,0 +1,78 @@
+/* Design tokens — "Paper & Ink"
+   Light-first editorial palette. One accent, used only for links and focus.
+   Source of truth mirrored in assets/design-tokens.json. */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-paper-50: #FBFAF7;
+  --primitive-paper-100: #F5F3EE;
+  --primitive-paper-200: #E7E3DA;
+  --primitive-paper-300: #D6D1C5;
+  --primitive-ink-500: #6B675F;
+  --primitive-ink-600: #57534C;
+  --primitive-ink-800: #2A2825;
+  --primitive-ink-900: #1A1917;
+  --primitive-night-900: #151412;
+  --primitive-night-800: #1E1D1A;
+  --primitive-night-600: #3A3833;
+  --primitive-vermilion-600: #B03A1C;
+  --primitive-vermilion-700: #8F2E15;
+  --primitive-vermilion-300: #E8896B;
+}
+
+/* === SEMANTIC (light) === */
+:root {
+  --bg: var(--primitive-paper-100);
+  --bg-raised: var(--primitive-paper-50);
+  --text: var(--primitive-ink-900);
+  --text-soft: var(--primitive-ink-600);   /* 6.9:1 on --bg */
+  --text-faint: var(--primitive-ink-500);  /* 5.0:1 on --bg */
+  --rule: var(--primitive-paper-300);
+  --rule-soft: var(--primitive-paper-200);
+  --link: var(--primitive-vermilion-600);  /* 5.5:1 on --bg */
+  --link-hover: var(--primitive-vermilion-700);
+  --focus: var(--primitive-vermilion-600);
+  --selection: rgba(176, 58, 28, 0.16);
+
+  --font-serif: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --step--1: 0.8125rem;
+  --step-0: 1.125rem;
+  --step-1: 1.3125rem;
+  --step-2: 1.625rem;
+  --step-3: clamp(1.875rem, 1.3rem + 2.4vw, 2.75rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  --measure: 38rem;
+  --wrap: 60rem;
+  --label-col: 11rem;
+
+  --ease: 160ms ease-out;
+}
+
+/* === SEMANTIC (dark) === */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--primitive-night-900);
+    --bg-raised: var(--primitive-night-800);
+    --text: #ECE8DF;
+    --text-soft: #B5AFA4;
+    --text-faint: #96907F;
+    --rule: var(--primitive-night-600);
+    --rule-soft: #2A2925;
+    --link: var(--primitive-vermilion-300);
+    --link-hover: #F2A88F;
+    --focus: var(--primitive-vermilion-300);
+    --selection: rgba(232, 137, 107, 0.25);
+  }
+}

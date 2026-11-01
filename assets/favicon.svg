@@ -1,10 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="14" fill="#0a0a0f"/>
-  <text x="32" y="42" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="26" fill="url(#grad)" text-anchor="middle">LS</text>
+  <rect width="64" height="64" rx="6" fill="#F5F3EE"/>
+  <text x="32" y="45" font-family="Newsreader, Georgia, serif" font-weight="600" font-size="34" fill="#1A1917" text-anchor="middle">LS</text>
+  <rect x="14" y="51" width="36" height="3" fill="#B03A1C"/>
 </svg>

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "brand": "Lakshya Soni — Paper & Ink",
+  "primitive": {
+    "color": {
+      "paper": {
+        "50": { "$value": "#FBFAF7", "$type": "color" },
+        "100": { "$value": "#F5F3EE", "$type": "color" },
+        "200": { "$value": "#E7E3DA", "$type": "color" },
+        "300": { "$value": "#D6D1C5", "$type": "color" }
+      },
+      "ink": {
+        "500": { "$value": "#6B675F", "$type": "color" },
+        "600": { "$value": "#57534C", "$type": "color" },
+        "800": { "$value": "#2A2825", "$type": "color" },
+        "900": { "$value": "#1A1917", "$type": "color" }
+      },
+      "night": {
+        "900": { "$value": "#151412", "$type": "color" },
+        "800": { "$value": "#1E1D1A", "$type": "color" },
+        "600": { "$value": "#3A3833", "$type": "color" }
+      },
+      "vermilion": {
+        "300": { "$value": "#E8896B", "$type": "color" },
+        "600": { "$value": "#B03A1C", "$type": "color" },
+        "700": { "$value": "#8F2E15", "$type": "color" }
+      }
+    },
+    "font": {
+      "serif": { "$value": "'Newsreader', 'Iowan Old Style', Georgia, serif", "$type": "fontFamily" },
+      "mono": { "$value": "'IBM Plex Mono', ui-monospace, Menlo, monospace", "$type": "fontFamily" }
+    }
+  },
+  "semantic": {
+    "light": {
+      "bg": { "$value": "{primitive.color.paper.100}" },
+      "text": { "$value": "{primitive.color.ink.900}" },
+      "text-soft": { "$value": "{primitive.color.ink.600}" },
+      "text-faint": { "$value": "{primitive.color.ink.500}" },
+      "rule": { "$value": "{primitive.color.paper.300}" },
+      "link": { "$value": "{primitive.color.vermilion.600}" }
+    },
+    "dark": {
+      "bg": { "$value": "{primitive.color.night.900}" },
+      "text": { "$value": "#ECE8DF" },
+      "text-soft": { "$value": "#B5AFA4" },
+      "text-faint": { "$value": "#96907F" },
+      "rule": { "$value": "{primitive.color.night.600}" },
+      "link": { "$value": "{primitive.color.vermilion.300}" }
+    }
+  }
+}
