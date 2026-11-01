@@ -9,18 +9,26 @@
         content="Lakshya Soni is an AI engineer at Deloitte building multi-agent systems, retrieval tools and data pipelines. Previously a data scientist at Network18.">
     <meta name="author" content="Lakshya Soni">
     <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#F5F3EE" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#151412" media="(prefers-color-scheme: dark)">
+    <link rel="canonical" href="https://lakshyasoni97.github.io/ai/">
 
-    <!-- Open Graph / Social -->
+    <!-- Open Graph / Social (social crawlers need absolute URLs and raster images) -->
     <meta property="og:title" content="Lakshya Soni — AI Engineer">
     <meta property="og:description"
         content="AI engineer building multi-agent systems, retrieval tools and data pipelines.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="assets/og-banner.svg">
+    <meta property="og:url" content="https://lakshyasoni97.github.io/ai/">
+    <meta property="og:image" content="https://lakshyasoni97.github.io/ai/assets/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"
+        content="Lakshya Soni, AI engineer: I build software that lets language models do useful, checkable work.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Lakshya Soni — AI Engineer">
     <meta name="twitter:description"
         content="AI engineer building multi-agent systems, retrieval tools and data pipelines.">
-    <meta name="twitter:image" content="assets/og-banner.svg">
+    <meta name="twitter:image" content="https://lakshyasoni97.github.io/ai/assets/og-banner.png">
 
     <!-- Fonts: Newsreader (text + display), IBM Plex Mono (dates & small labels) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +38,40 @@
         rel="stylesheet">
 
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- Prevent theme flash -->
+    <script>
+        (function () {
+            try {
+                var theme = localStorage.getItem('theme');
+                if (theme === 'dark' || theme === 'light') {
+                    document.documentElement.setAttribute('data-theme', theme);
+                }
+            } catch (e) { }
+        })();
+    </script>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Lakshya Soni",
+      "jobTitle": "AI Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Deloitte"
+      },
+      "url": "https://lakshyasoni97.github.io/ai/",
+      "sameAs": [
+        "https://github.com/lakshyasoni97",
+        "https://www.linkedin.com/in/soni-lakshya/",
+        "https://x.com/lakshyasoni97",
+        "https://medium.com/@lakshyasoni97"
+      ]
+    }
+    </script>
 
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/style.css">
@@ -41,14 +83,33 @@
     <header class="site-header">
         <div class="wrap header-inner">
             <a href="#top" class="wordmark">Lakshya Soni</a>
-            <nav aria-label="Primary">
-                <ul class="nav-list">
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#writing">Writing</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="header-actions">
+                <nav aria-label="Primary">
+                    <ul class="nav-list">
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#writing">Writing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark theme">
+                    <svg class="theme-icon theme-icon-moon" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="theme-icon theme-icon-sun" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <span class="theme-label" id="themeLabel">dark</span>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -156,28 +217,28 @@
             <div class="section-content">
                 <ol class="cv-list">
                     <li class="cv-row">
-                        <span class="cv-date">2025 —</span>
+                        <span class="cv-date"><span aria-hidden="true">2025 —</span><span class="visually-hidden">2025 to present</span></span>
                         <div>
                             <h3>AI Engineer, <span class="cv-org">Deloitte USI</span></h3>
                             <p>Agent systems and retrieval tools for enterprise clients.</p>
                         </div>
                     </li>
                     <li class="cv-row">
-                        <span class="cv-date">2023 — 25</span>
+                        <span class="cv-date"><span aria-hidden="true">2023 — 25</span><span class="visually-hidden">2023 to 2025</span></span>
                         <div>
                             <h3>Data Scientist, <span class="cv-org">Network18</span></h3>
                             <p>Sales-intelligence search, reporting automation, newsroom NLP and video tooling.</p>
                         </div>
                     </li>
                     <li class="cv-row">
-                        <span class="cv-date">2022 — 23</span>
+                        <span class="cv-date"><span aria-hidden="true">2022 — 23</span><span class="visually-hidden">2022 to 2023</span></span>
                         <div>
                             <h3>PGP, AI &amp; Data Science, <span class="cv-org">Jio Institute</span></h3>
                             <p>Exchange term at Nanyang Technological University, Singapore. CGPA 8.79.</p>
                         </div>
                     </li>
                     <li class="cv-row">
-                        <span class="cv-date">2019 — 22</span>
+                        <span class="cv-date"><span aria-hidden="true">2019 — 22</span><span class="visually-hidden">2019 to 2022</span></span>
                         <div>
                             <h3>Executive Engineer, <span class="cv-org">Torrent Gas</span></h3>
                             <p>Designed and commissioned city-scale steel pipeline networks in Jaipur; automated the
@@ -185,7 +246,7 @@
                         </div>
                     </li>
                     <li class="cv-row">
-                        <span class="cv-date">2015 — 19</span>
+                        <span class="cv-date"><span aria-hidden="true">2015 — 19</span><span class="visually-hidden">2015 to 2019</span></span>
                         <div>
                             <h3>B.Tech, Power Engineering, <span class="cv-org">NPTI</span></h3>
                             <p>CGPA 8.38.</p>
@@ -224,8 +285,23 @@
         <section class="section wrap" id="writing" aria-labelledby="writing-title">
             <h2 class="section-label" id="writing-title">Writing</h2>
             <div class="section-content">
-                <ul class="post-list" id="postList" aria-live="polite">
-                    <li class="post-loading">Loading posts from Medium…</li>
+                <!-- Static list so posts show without JS or if the feed proxy is down;
+                     main.js refreshes it from Medium when it can. -->
+                <ul class="post-list" id="postList">
+                    <li class="post-item">
+                        <a href="https://medium.com/@lakshyasoni97/evaluation-metrics-explained-the-way-they-should-be-20d91569d597"
+                            target="_blank" rel="noopener">
+                            <span class="post-title">Evaluation Metrics explained the way they should be</span>
+                            <time class="post-date" datetime="2023-02-22">Feb 2023</time>
+                        </a>
+                    </li>
+                    <li class="post-item">
+                        <a href="https://medium.com/@lakshyasoni97/sets-the-same-that-you-use-in-maths-959ee70f4d12"
+                            target="_blank" rel="noopener">
+                            <span class="post-title">Sets: The same that you use in Maths</span>
+                            <time class="post-date" datetime="2022-09-23">Sept 2022</time>
+                        </a>
+                    </li>
                 </ul>
                 <p class="post-more">
                     <a href="https://medium.com/@lakshyasoni97" target="_blank" rel="noopener">All posts on Medium
@@ -241,9 +317,10 @@
                 <p class="contact-text">
                     If you're working on something where an LLM has to be right more often than it's impressive, I'd
                     like to hear about it. Email is best:
-                    <a href="mailto:lakshyasoni97@gmail.com">lakshyasoni97@gmail.com</a>
-                    <button type="button" class="copy-btn" id="copyEmailBtn"
-                        data-email="lakshyasoni97@gmail.com">copy</button>
+                    <a href="mailto:lakshyasoni97@gmail.com" id="contactEmail">lakshyasoni97@gmail.com</a>
+                    <button type="button" class="copy-btn" id="copyEmailBtn" data-email="lakshyasoni97@gmail.com"
+                        aria-label="Copy email address">copy</button>
+                    <span class="visually-hidden" role="status" id="copyStatus"></span>
                 </p>
                 <p class="contact-text contact-secondary">
                     Also on <a href="https://www.linkedin.com/in/soni-lakshya/" target="_blank"

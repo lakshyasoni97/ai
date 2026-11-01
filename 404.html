@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Page not found · Lakshya Soni</title>
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#F5F3EE" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#151412" media="(prefers-color-scheme: dark)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- Prevent theme flash -->
+    <script>
+        (function () {
+            try {
+                var theme = localStorage.getItem('theme');
+                if (theme === 'dark' || theme === 'light') {
+                    document.documentElement.setAttribute('data-theme', theme);
+                }
+            } catch (e) { }
+        })();
+    </script>
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .error-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 70vh;
+        }
+        .error-code {
+            font-family: var(--font-mono);
+            font-size: var(--step--1);
+            color: var(--text-faint);
+            margin-bottom: var(--space-4);
+        }
+        .error-page h1 {
+            font-size: var(--step-3);
+            font-weight: 400;
+            line-height: 1.2;
+            letter-spacing: -0.015em;
+            margin-bottom: var(--space-6);
+        }
+        .error-page p {
+            color: var(--text-soft);
+            max-width: var(--measure);
+            margin-bottom: var(--space-6);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="index.html" class="wordmark">Lakshya Soni</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="wrap error-page">
+            <p class="error-code">404 // Not found</p>
+            <h1>This page doesn't exist.</h1>
+            <p>The link might be outdated or the page has moved.</p>
+            <p><a href="index.html">← Return to the homepage</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer wrap">
+        <p>© 2026 Lakshya Soni</p>
+    </footer>
+</body>
+
+</html>

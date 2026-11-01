@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lakshyasoni97.github.io/ai/sitemap.xml
