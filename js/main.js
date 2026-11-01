@@ -2,7 +2,7 @@
    Header scroll rule, dynamic header height, active nav observer,
    accessible copy-email button, and progressive Medium posts. */
 
-document.addEventListener('DOMContentLoaded', () => {
+const init = () => {
     // Year
     const yearSpan = document.getElementById('currentYear');
     if (yearSpan) yearSpan.textContent = new Date().getFullYear();
@@ -100,9 +100,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Theme toggle (manual switch + persistent preference + OS sync)
     const themeToggle = document.getElementById('themeToggle');
     const themeLabel = document.getElementById('themeLabel');
+    const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
 
     const getSystemTheme = () => {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        return darkQuery && darkQuery.matches ? 'dark' : 'light';
     };
 
     const getCurrentTheme = () => {
@@ -133,15 +134,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-        let stored = null;
-        try {
-            stored = localStorage.getItem('theme');
-        } catch (err) {}
-        if (!stored) {
-            updateThemeUI(e.matches ? 'dark' : 'light');
+    if (darkQuery) {
+        const handleOSChange = (e) => {
+            let stored = null;
+            try {
+                stored = localStorage.getItem('theme');
+            } catch (err) {}
+            if (!stored) {
+                updateThemeUI(e.matches ? 'dark' : 'light');
+            }
+        };
+        if (darkQuery.addEventListener) {
+            darkQuery.addEventListener('change', handleOSChange);
+        } else if (darkQuery.addListener) {
+            darkQuery.addListener(handleOSChange);
         }
-    });
+    }
 
     // Copy email with accessible feedback and safe fallback
     const copyBtn = document.getElementById('copyEmailBtn');
@@ -247,4 +255,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     loadPosts();
-});
+};
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}

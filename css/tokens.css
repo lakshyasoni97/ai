@@ -79,6 +79,7 @@
 
 /* Explicit dark theme override */
 [data-theme="dark"] {
+  color-scheme: dark;
   --bg: var(--primitive-night-900);
   --bg-raised: var(--primitive-night-800);
   --text: #ECE8DF;
@@ -94,6 +95,7 @@
 
 /* Explicit light theme override */
 [data-theme="light"] {
+  color-scheme: light;
   --bg: var(--primitive-paper-100);
   --bg-raised: var(--primitive-paper-50);
   --text: var(--primitive-ink-900);
